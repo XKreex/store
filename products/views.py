@@ -5,7 +5,7 @@ def index(request):
     context = {
         'title': 'Test Title',
     }
-    return render(request, 'products/index.html', context )
+    return render(request, 'products/index.html', context)
 
 def products(request):
     context = {
