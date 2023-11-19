@@ -1,0 +1,9 @@
+misc.xml
+store.iml
+.idea/.DS_Store
+*.xml
+*.iml
+*.pyc
+products/.DS_Store
+.DS_Store
+.idea/dataSources.xml
