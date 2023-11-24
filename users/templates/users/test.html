@@ -5,8 +5,12 @@
     <title>Title</title>
 </head>
 <body>
-<form>
-    {{ form.as_p}}
+<form method="post">
+    {% csrf_token %}
+    <table>
+        {{ form }}
+    </table>
+    <input type="submit" value="Отправить">
 </form>
 <p>Hello</p>
 
